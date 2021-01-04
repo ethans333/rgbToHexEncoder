@@ -34,7 +34,7 @@ This should always return a whole number.
   
   console.log(getHex(r) , getHex(g) , getHex(b))
   
-  return getHex(r) + getHex(g) + getHex(b);
+  return `#${getHex(r) + getHex(g) + getHex(b)}`;
 }
 ```
 Create an empty ```symbol``` string. Map the whole number and remainder,
@@ -47,7 +47,7 @@ smallest hexadecimal value. Concat the symbol of ```a``` and ```rem```. If the s
 
 ## Terminal Returns: 🤖
 ```
-rgb(173,255,47) => ADFF2F
+rgb(173,255,47) => #ADFF2F
 ```
 ## Notes 🤔
 This was a kata exercise on codewars. I've always wondered how hex values work and now I know!
