@@ -1,6 +1,7 @@
-# rgbToHexEncoder 🎨
+# Rgb To Hexadecimal Encoder 🎨
 Algorithm for converting RGB values to their corresponding hexadecimal values.
 
+## Code Breakdown
 ```javascript
 function rgb(r, g, b){  
   const getHex = int => {
@@ -44,11 +45,11 @@ smallest hexadecimal value. Concat the symbol of ```a``` and ```rem```. If the s
 ```a``` and ```rem``` was ever > 16 ```symbol = 'FF'``` or if the sum was ever < 0 then
 ```symbol = '00'```, their corresponding rounded value.
 
-## Terminal Returns:
+## Terminal Returns: 🤖
 ```
 rgb(173,255,47) => ADFF2F
 ```
-## Notes
+## Notes 🤔
 This was a kata exercise on codewars. I've always wondered how hex values work and now I know!
 I tried using ternary operators (```(condition) ? true : false```) for the first time too. The
 script for this project is in the repository's files. Thanks!
