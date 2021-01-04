@@ -32,8 +32,7 @@ This should always return a whole number.
     return symbol;
   }
   
-  console.log(getHex(r) , getHex(g) , getHex(b))
-  
+  console.log(`#${getHex(r) + getHex(g) + getHex(b)}`)
   return `#${getHex(r) + getHex(g) + getHex(b)}`;
 }
 ```
