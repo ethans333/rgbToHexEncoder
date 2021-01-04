@@ -19,7 +19,7 @@ Divide the integer by ```16``` and then calculate its remainder.
 If remainder does not equal zero then multiply the remainder by 16.
 This should always return a whole number.
 
-```
+```javascript
     let symbol = '';
     
     const hexMap = int => {
